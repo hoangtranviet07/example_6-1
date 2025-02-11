@@ -157,7 +157,7 @@ static void userInterfaceDisplayUpdate()
         displayCharPositionWrite ( 4,0 );
         displayStringWrite( temperatureString );
         displayCharPositionWrite( 6,0);
-        displayStringWrite("'C");
+        displayStringWrite("\xDF""C");
 
         displayCharPositionWrite ( 14,0 );
 
